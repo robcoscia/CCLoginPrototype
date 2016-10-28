@@ -37,8 +37,8 @@ height: auto;}
 									box-sizing: border-box;
 									}
 .clearfix:before{}
-
-#panel2{ color: gray; min-width: 340px;}
+#panel1, #panel2{ min-width: 380px;}
+#panel2{ color: gray;}
 #panel3{margin-left: 20px; width: 340px;background: -webkit-linear-gradient(#4fd9e2 0%, #ffffff 100%)}
 #panel2Hdr, #panel2Ftr{margin-left: 20px;}
 #lobTitle{ color: #66abf4; }
@@ -48,7 +48,7 @@ height: auto;}
 #forgotSpan{font-size: .75rem; margin-left: 50px;}
 #forgotUsername, #forgotPassword{color: grey; text-decoration: underline; }
 
-footer{background: transparent url(../img/footer-bg-top.png) repeat-x center top; padding-top: 5px;  margin-top: 25px; font-size: 16px;}
+footer{background: transparent url(../img/footer-bg-top.png) repeat-x center top; padding-top: 5px;  margin-top: 25px; font-size: 16px; min-width: 570px;}
 footer nav{margin-top: 3em;
 text-align: center; }
 footer nav ul{list-style-type: none;
