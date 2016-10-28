@@ -38,8 +38,8 @@ height: auto;}
 									}
 .clearfix:before{}
 
-#panel2{ color: gray; }
-#panel3{margin-left: 20px; width: 340px;}
+#panel2{ color: gray; min-width: 340px;}
+#panel3{margin-left: 20px; width: 340px;background: -webkit-linear-gradient(#4fd9e2 0%, #ffffff 100%)}
 #panel2Hdr, #panel2Ftr{margin-left: 20px;}
 #lobTitle{ color: #66abf4; }
 
