@@ -1,11 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!--    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>College Coach Login</title>
+-->   
+ <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <title>EdAssist Login</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -20,7 +24,7 @@
     <![endif]-->
   </head>
   <body>
-    <h1 id="h1Login">College Coach Login</h1>
+    <h1 id="h1Login">EdAssit Login</h1>
 	<div id="panel1" class="panel panel-default">
 		<div class="panel-body clearfix" >
 			<div class = "logoLeft"> 
@@ -35,31 +39,42 @@
 	<div id="panel2" class="panel panel-default">
 		<div class="panel-body">
 			<div id="panel2Hdr">
-				<h3>Welcome to <span id="lobTitle">College Coach</span></h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+				WELCOME TO THE <span id="lobTitle">EDASSIST LOGIN PAGE</span>
 			</div>
 			
 			<div id="panel3" class="panel panel-default">
 				<div class="panel-body clearfix" >
 					<div class = "logoLeft"> 
-						<img src = "img/Logo_CollegeCoach.jpeg" alt="Bright Horizons Logo" />
+						<img id="lobLogo" src ="Img/EdAssistlogo.png" alt="EdAssist Logo" />
 					</div>
+                    <div id = "signInTitle"> SIGN IN</div>
+                    <div id="loginSeperator" class="clearfix"></div>
 					<form id="loginForm" action="#" method="post">
 						<input id="username" type="text" name="username" placeholder="Username"/>
 						<br />
 						<input id="password" type="password" name="password" placeholder="Password"/>	
 						<br />
-						<input id ="submitLogin" type="submit" value="Login"/> 
-						<span id="forgotSpan"> Forgot 
-							<a href="#" id="forgotUsername">Username</a> or
-							<a href="#" id="forgotPassword">Password</a>  
+                        <div id="panel3MidDiv" class="clearfix">
+                            <div id="leftMidLoginDiv">
+						        <input id ="submitLogin" type="submit" value="LOG IN"/>
+                            </div>
+                            <div id="rightMidLoginDiv">
+                                <input id ="rememberMeCheckBox" type="checkbox" /> <label>Remember Me</label> <br />  
+						        <a href="#" id="forgotPassword">Forgot Password</a>  
+                            </div>
+                        </div>
 					</form>
+                    <div id="loginFormFooter" class="clearfix">
+                        <div> First time here?</div>
+                        <input id="createPasswordButton" type="button" value="Create Password" />
+                    </div>
 				</div>
 			</div>
-			<div id="panel2Ftr">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</p>
-			</div>
+			<div id="panel4" class="panel panel-default">
+				<div class="panel-body clearfix" >
+                <img alt="Students Studying in the Library" src="Img/two-employees-studying-in-library-341x287.jpg" />
+                </div>
+            </div>
 		</div>
 	</div>
 	
