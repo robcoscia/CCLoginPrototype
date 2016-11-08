@@ -14,7 +14,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    
+     
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -24,6 +24,7 @@
     <![endif]-->
   </head>
   <body>
+  <!--<div id="loginWrapper"></div> -->
     <h1 id="h1Login">EdAssit Login</h1>
 	<div id="panel1" class="panel panel-default">
 		<div class="panel-body clearfix" >
@@ -38,12 +39,12 @@
 
 	<div id="panel2" class="panel panel-default">
 		<div class="panel-body">
-			<div id="panel2Hdr">
-				WELCOME TO THE <span id="lobTitle">EDASSIST LOGIN PAGE</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			</div>
-			
+		
 			<div id="panel3" class="panel panel-default">
 				<div class="panel-body clearfix" >
+			        <div id="panel2Hdr">
+				        WELCOME TO THE <span id="lobTitle">EDASSIST LOGIN PAGE</span>
+			        </div>
 					<div class = "logoLeft"> 
 						<img id="lobLogo" src ="Img/EdAssistlogo.png" alt="EdAssist Logo" />
 					</div>
@@ -77,35 +78,37 @@
             </div>
 		</div>
 	</div>
-	
-	<footer class="clearfix">
-		<div id="footerTopSection">
-			<div id="footerNav">
-				<nav class="clearfix">
-				    <ul>
-					    <li class="first">								    
-						    <a id="footerNav_privacy" href="http://www.brighthorizons.com/privacy" target="_blank">PRIVACY POLICY</a>
-					    </li>
-					    <li>
-						    <a id="footerNav_termsuse" href="http://www.brighthorizons.com/terms-use" target="_blank">Terms &amp; Conditions</a>
-					    </li>
-					    <li>
-						    <a id="footerNav_trademarks" href="http://www.brighthorizons.com/trademarks" target="_blank">Trademark</a>
-					    </li>
-				    </ul>
-			    </nav>
-			</div>
-		</div>
-		<div id="footerBottomSection">
-			<div id="copyright">					
-				© 2016 Bright Horizons Family Solutions LLC All Rights Reserved							
-			</div>
-		</div>
-	</footer>
+	<div id="footerWrapper">
+	    <footer >
+		    <div id="footerTopSection">
+			    <div id="footerNav">
+				    <nav class="clearfix">
+				        <ul>
+					        <li class="first">								    
+						        <a id="footerNav_privacy" href="http://www.brighthorizons.com/privacy" target="_blank">PRIVACY POLICY</a>
+					        </li>
+					        <li>
+						        <a id="footerNav_termsuse" href="http://www.brighthorizons.com/terms-use" target="_blank">Terms &amp; Conditions</a>
+					        </li>
+					        <li>
+						        <a id="footerNav_trademarks" href="http://www.brighthorizons.com/trademarks" target="_blank">Trademark</a>
+					        </li>
+				        </ul>
+			        </nav>
+			    </div>
+		    </div>
+		    <div id="footerBottomSection">
+			    <div id="copyright">					
+				    © 2016 Bright Horizons Family Solutions LLC All Rights Reserved							
+			    </div>
+		    </div>
+	    </footer>
+    </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <!--</div>-->
   </body>
 </html>
