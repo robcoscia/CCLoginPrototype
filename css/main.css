@@ -42,8 +42,8 @@ body{background: -webkit-linear-gradient(#96d6d9 0%, #ffffff 100%); background: 
 /* Panel 4 */
 #panel4 div{padding: 0px; height: 100%;}
 /*Footer*/
-#footerWrapper{height: 97px; position: absolute; width: 100%; bottom: 0; margin-top: 25px; }
-footer{background: transparent url(../img/footer-bg-top.png) repeat-x center top; min-width: 400px;padding-top:5px; padding-bottom: 122px;}
+#footerWrapper{height: 97px; position: absolute; width: 100%; bottom: 0; margin-top: 25px; clear: both;}
+footer{background: transparent url(../img/footer-bg-top.png) repeat-x center top; min-width: 400px;padding-top:5px; }
 footer nav{margin-top: .5em;text-align: center; }
 footer nav ul{list-style-type: none;list-style-position: outside;padding: 0;margin: 0;font-size: 1.5rem;line-height: 1.6rem;}
 footer nav ul li.first{border-left: none;padding-left: 0;margin-left: 0;}
@@ -56,7 +56,8 @@ footer nav ul li a{color: white;text-decoration: none;font-size: 0.75rem;}
 /*Iphone*/
 @media screen and (max-width: 776px) 
 {
-	footer {margin-top: 5%;}
+	/*footer {margin-top: 5%;}*/
 	#panel3, #panel4{margin-left: auto; margin-right: auto;float:none;margin-bottom: 5px;}
     #panel4{}  
+    #footerWrapper{position: fixed;}
 }
