@@ -75,8 +75,12 @@ footer nav ul li a{color: white;text-decoration: none;font-size: 0.75rem;}
 @media screen and (max-width: 789px) 
 {
 	footer {margin-top: 5%;}
-	.logoRight{float: none; clear:left; margin-left: 20px;}
 	#accountLogo{margin-top: 15px;}
 	#panel3, #panel4{margin-left: auto; margin-right: auto;float:none;margin-bottom: 5px;}
     #panel4{}  
+}
+
+@media screen and (max-width: 540px) 
+{
+	.logoRight{float: none; clear:left; margin-left: 20px;}
 }
