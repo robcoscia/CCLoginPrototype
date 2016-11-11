@@ -29,9 +29,9 @@ body{background: -webkit-linear-gradient(#96d6d9 0%, #ffffff 100%); background: 
 #h1Login{ display: none;}
 /* Panel 1*/
 .logoLeft{height: 100px; overflow: visible; float: left;}
-.logoLeft img{margin-left: 20px;width: 138px;height:62px;height:62px;}
+.logoLeft img{margin-left: 20px;}
 .logoRight {float: right; margin-right: 20px;}
-.logoRight img{width: 77px;height:62px;}
+.logoRight img{width: 114px;height:91px; margin-top: auto; margin-bottom: auto;}
 
 #accountLogo{margin-bottom: 15px;}
 .tie {background: transparent url(../img/rings.png) no-repeat 0 0;position: absolute;width: 13px;height: 35px;display: block;z-index: 10;-webkit-transition: all 0.2s ease-out;-moz-transition: all 0.2s ease-out;-ms-transition: all 0.2s ease-out;transition: all 0.2s ease-out;}
