@@ -31,7 +31,7 @@ body{background: -webkit-linear-gradient(#96d6d9 0%, #ffffff 100%); background: 
 #midScreen p{margin-left: 50px; margin-right:50px;}
 /* Panel 1*/
 .logoLeft{height: 100px; overflow: visible; float: left;}
-.logoLeft img{margin-left: 20px;}
+.logoLeft img{margin-left: 20px;width:169px;height:82px;}
 .logoRight {float: right; margin-right: 20px;}
 #accountLogo{margin-bottom: 15px;}
 .tie {background: transparent url(../img/rings.png) no-repeat 0 0;position: absolute;width: 13px;height: 35px;display: block;z-index: 10;-webkit-transition: all 0.2s ease-out;-moz-transition: all 0.2s ease-out;-ms-transition: all 0.2s ease-out;transition: all 0.2s ease-out;}
@@ -45,9 +45,9 @@ body{background: -webkit-linear-gradient(#96d6d9 0%, #ffffff 100%); background: 
 #panel2Hdr{ font-family: FuturaMediumCondensed; font-size: 2rem; margin-left: 0rem; margin-top: -3.8rem; color:gray; min-width: 434px;}
 /* Panel 3 */
 #panel3 div{padding: 0px;}
-#lobLogo{margin-Left: 15px; margin-top: 15px;width: 126px; height:74px;float:none;}
+#lobLogo{margin-Left: 15px; margin-top: 15px;width: 166px; height: 82px;float:left;}
 #loginSeperator{height: 2px; background: #d9c14c; width: 90%; margin-left: 14px; margin-top: 8px; margin-bottom: 15px;clear: both;}
-#signInTitle{float: right; margin-right: 20px; margin-top: -20px;font-family: FuturaMediumCondensed; font-size: 1.5rem;clear: both;}
+#signInTitle{float: right; margin-right: 20px; margin-top: 75px;font-family: FuturaMediumCondensed; font-size: 1.5rem;}
 #loginForm{margin-left: 15px; margin-right: 15px;}
 #lobTitle{ color: #568db5;}
 #username, #password{margin-bottom: 10px;width: 300px;padding-bottom: .25rem;padding-top: .25rem; text-decoration: underline; font-size: 1rem;}
@@ -58,7 +58,7 @@ body{background: -webkit-linear-gradient(#96d6d9 0%, #ffffff 100%); background: 
 #leftMidLoginDiv{float: left; }
 #rightMidLoginDiv{float: right; font-size: 10px; width: 225px;}
 #rightMidLoginDiv label{margin-bottom: 0px; font-weight: normal; margin-left: 20px;}
-#loginFormFooter{background: #7daab6; width: 100%; clear: both;margin: 1rem 0rem 0rem 0rem; font-size: 1.75rem; padding: 5px; height: 40px;padding-top: 15px;font-family: FuturaMediumCondensed}
+#loginFormFooter{background: #7daab6; width: 100%; clear: both;margin: 1.6rem 0rem 0rem 0rem; font-size: 1.75rem; padding: 5px; height: 40px;padding-top: 15px;font-family: FuturaMediumCondensed}
 #loginFormFooter div{color: White; margin-left: 15px; margin-top: 5px;float: left;}
 #signupButton{color: #d9c14c;background: #7daab6; margin-top: 5px; margin-right: 15px;border: none;padding: 1px; border-radius: 5px;}
 /* Panel 4 */
