@@ -29,7 +29,7 @@ body{background: -webkit-linear-gradient(#96d6d9 0%, #ffffff 100%); background: 
 #h1Login{ display: none;}
 /* Panel 1*/
 .logoLeft{height: 100px; overflow: visible; float: left;}
-.logoLeft img{margin-left: 20px;Width:169px;height:82px;}
+.logoLeft img{margin-left: 20px;Width:140px;height:82px;}
 .logoRight {float: right; margin-right: 20px;}
 .logoRight img{width: 103px;height:82px; margin-top: auto; margin-bottom: auto;}
 
@@ -43,8 +43,8 @@ body{background: -webkit-linear-gradient(#96d6d9 0%, #ffffff 100%); background: 
 /* Panel 3 */
 #panel3 div{padding: 0px;}
 #panel2Hdr{ font-family: FuturaMediumCondensed; font-size: 2rem; margin-left: 0rem; margin-top: -3.8rem; color:gray;}
-#lobLogo{margin-Left: 15px; margin-top: 20px;width: 126px; height:74px;float:left;margin-bottom: 5px;}
-#loginSeperator{height: 2px; background: #d9c14c; width: 90%; margin-left: 14px; margin-top: 5px; margin-bottom: 15px;clear: both;}
+#lobLogo{margin-Left: 15px; margin-top: 20px;width: 126px; height:74px;float:left;}
+#loginSeperator{height: 2px; background: #d9c14c; width: 90%; margin-left: 14px; margin-top: 2px; margin-bottom: 15px;clear: both;}
 #signInTitle{float: right; margin-right: 20px; margin-top: 75px;font-family: FuturaMediumCondensed; font-size: 1.5rem;float: right;}
 #loginForm{margin-left: 15px; margin-right: 15px;}
 #lobTitle{ color: #568db5;}
@@ -63,8 +63,8 @@ body{background: -webkit-linear-gradient(#96d6d9 0%, #ffffff 100%); background: 
 #panel4 div{padding: 0px; height: 100%;}
 #panel4 img {height: 285px;}
 /*Footer*/
-footer{background: transparent url(../img/blueline.png) repeat-x center top; min-width: 400px;padding-top:5px; height: 97px; margin-top: 25px; }
-footer nav{margin-top: .5em;text-align: center; }
+footer{background: transparent url(../img/blueline.png) repeat-x center top; min-width: 400px;padding-top:5px; height: 97px; /*margin-top: 25px;*/ }
+footer nav{/*margin-top: .5em;*/text-align: center; }
 footer nav ul{list-style-type: none;list-style-position: outside;padding: 0;margin: 0;font-size: 1.5rem;line-height: 1.6rem;}
 footer nav ul li.first{border-left: none;padding-left: 0;margin-left: 0;}
 footer nav ul li{border-left: 1px solid white;padding-left: 10px;margin-left: 5px;display: inline;font-size: 0.75rem;}
@@ -72,7 +72,7 @@ footer nav ul li a{color: white;text-decoration: none;font-size: 0.75rem;}
 #footerNav{padding-left: 0.125rem;padding-right: 0.125rem; width: 100%; position: relative; text-align: center;}
 #copyright{text-align: center;}
 #footerTopSection{background: #3d4a61 url(../img/footer-bg.gif) repeat 0 0;padding-top: 1em;padding-bottom: 1rem;color: #37435b;}
-#footerBottomSection{background: #1a212a url(../img/footer-bg-bottom.png) repeat-x 0 0;padding-top: 1.5em;padding-bottom: 1.5em;color: #324563;font-size: 0.75rem;}
+#footerBottomSection{background: #1a212a url(../img/footer-bg-bottom.png) repeat-x 0 0;padding-top: 1.5em;/*padding-bottom: 1.5em;*/padding-bottom: 1.85em;color: #324563;font-size: 0.75rem;}
 /*Mobile*/
 @media screen and (max-width: 789px) 
 {

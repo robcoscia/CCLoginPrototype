@@ -65,8 +65,8 @@ body{background: -webkit-linear-gradient(#96d6d9 0%, #ffffff 100%); background: 
 #panel4 div{padding: 0px; height: 100%;}
 #panel4 img {height: 285px;}
 /*Footer*/
-footer{background: transparent url(../img/blueline.png) repeat-x center top; min-width: 400px;padding-top:5px; height: 97px; margin-top: 25px; }
-footer nav{margin-top: .5em;text-align: center; }
+footer{background: transparent url(../img/blueline.png) repeat-x center top; min-width: 400px;padding-top:5px; height: 97px;/*margin-top: 25px;*/ }
+footer nav{/*margin-top: .5em;*/text-align: center; }
 footer nav ul{list-style-type: none;list-style-position: outside;padding: 0;margin: 0;font-size: 1.5rem;line-height: 1.6rem;}
 footer nav ul li.first{border-left: none;padding-left: 0;margin-left: 0;}
 footer nav ul li{border-left: 1px solid white;padding-left: 10px;margin-left: 5px;display: inline;font-size: 0.75rem;}
@@ -74,7 +74,7 @@ footer nav ul li a{color: white;text-decoration: none;font-size: 0.75rem;}
 #footerNav{padding-left: 0.125rem;padding-right: 0.125rem; width: 100%; position: relative; text-align: center;}
 #copyright{text-align: center;}
 #footerTopSection{background: #3d4a61 url(../img/footer-bg.gif) repeat 0 0;padding-top: 1em;padding-bottom: 1rem;color: #37435b;}
-#footerBottomSection{background: #1a212a url(../img/footer-bg-bottom.png) repeat-x 0 0;padding-top: 1.5em;padding-bottom: 1.5em;color: #324563;font-size: 0.75rem;}
+#footerBottomSection{background: #1a212a url(../img/footer-bg-bottom.png) repeat-x 0 0;padding-top: 1.5em;/*padding-bottom: 1.5em;*/padding-bottom: 1.85em;color: #324563;font-size: 0.75rem;}
 /*Mobile*/
 @media screen and (max-width: 789px) 
 {
