@@ -50,7 +50,7 @@ body{background: -webkit-linear-gradient(#96d6d9 0%, #ffffff 100%); background: 
 #signInTitle{float: right; margin-right: 20px; margin-top: 75px;font-family: FuturaMediumCondensed; font-size: 1.5rem;}
 #loginForm{margin-left: 15px; margin-right: 15px;}
 #lobTitle{ color: #568db5;}
-#username, #password{margin-bottom: 10px;width: 300px;padding-bottom: .25rem;padding-top: .25rem; text-decoration: underline; font-size: 1rem;}
+#username, #password{margin-bottom: 10px;width: 300px;padding-bottom: .25rem;padding-top: .25rem; /*text-decoration: underline; font-size: 1rem;*/}
 .hidenLabel{display: none;}
 #submitLogin{padding:.15rem 1.5rem; background: -webkit-linear-gradient(#e8d991 0%, #c9ae2b 100%); background: linear-gradient(#e8d991 0%, #c9ae2b 100%); color: White;border-radius: 5px; font-size: 1rem;}
 #forgotSpan{font-size: .75rem; margin-left: 80px;}
